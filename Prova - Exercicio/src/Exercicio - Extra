@@ -1,0 +1,19 @@
+Instruções:
+
+1. Altere o seu código de forma que TODAS as questões da Prova 1 sejam respondidas corretamente. 
+Não use apenas o MEU CÓDIGO para complementar o SEU CÓDIGO, entenda a solução que deve ser dada a cada questão e implemente. 
+
+2. Crie uma classe que represente uma Empresa, com seus atributos e métodos. 
+Altere a classe Ligação para permitir o registro também da Empresa em uma ligação, ou seja, 
+uma ligação pode ser feita por um Cliente (pessoa física) ou uma Empresa (pessoa jurídica). 
+
+3. Complemente a classe BDSimulado criando empresas diversas e novas ligações que sejam realizadas por essas empresas. 
+
+4. A forma de pagamento das ligações por parte das Empresas é diferente da forma de pagamento por parte dos Clientes.
+Crie uma função (ou mais de uma) que permita emitir a conta da empresa seguindo as regras abaixo: As empresas pagam 
+R$0,08 por minuto de ligação de forma geral, mas se a ligação for realizada entre 12h e 14h a Empresa paga somente 
+R$0,30 por ligação, independente do tempo de ligação.Algumas Empresas são consideradas como Empresa Vip e com isso 
+ganham um desconto maior no minuto de ligação. Para uma Empresas Vip o minuto da ligação é de apenas R$0,04. 
+
+5. Procure organizar seu código de forma que os métodos realizem funções muito específicas e que possam sem reutilizados 
+por outros métodos, otimizando a codificação.
